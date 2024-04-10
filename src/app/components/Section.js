@@ -22,7 +22,7 @@ export default function Section() {
                 {/* send button */}
                 <div className="mt-5 grid grid-cols-1 w-96 mb-10 ">
                     <div className="flex justify-center">
-                        <button className="border border-solid rounded-full bg-transparent font-semibold border-green-500 w-24 p-1 hover:bg-green-500 hover:text-lg hover:font-bold focus:bg-green-500">Send</button>
+                        <button className="border-2 border-solid rounded-full bg-transparent font-semibold border-green-500 w-24 p-1 hover:bg-green-500 hover:text-lg hover:font-bold focus:bg-green-500">Send</button>
                     </div>
                 </div>
             </form>
