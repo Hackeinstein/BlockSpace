@@ -1,5 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
+import ConnectButton from "./connectbutton"
 
 
 export default function Header() {
@@ -18,7 +19,8 @@ export default function Header() {
         </div>
         <div className="flex space-x-5">
           <div className="flex justify-center">
-                <button className="border-2 border-solid rounded-full bg-transparent font-semibold border-green-500 w-40 p-1 hover:bg-green-500 hover:text-lg hover:font-bold bg-green-500">Connect Wallet</button>
+                {/* <button className="border-2 border-solid rounded-full bg-transparent font-semibold border-green-500 w-40 p-1 hover:bg-green-500 hover:text-lg hover:font-bold bg-green-500">Connect Wallet</button> */}
+                <ConnectButton/>
             </div>
         </div>
 
